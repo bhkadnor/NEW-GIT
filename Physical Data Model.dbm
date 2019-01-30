@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:NetezzaModel="http:///com/ibm/db/models/netezza/netezza.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <NetezzaModel:NetezzaDatabase xmi:id="_ttMbgIOeEeilrPhcS4IOOQ" name="Database" vendor="Netezza" version="7.x" schemas="_twEwYIOeEeilrPhcS4IOOQ"/>
+  <NetezzaModel:NetezzaSchema xmi:id="_twEwYIOeEeilrPhcS4IOOQ" name="Schema" tables="_tyUMEIOeEeilrPhcS4IOOQ" database="_ttMbgIOeEeilrPhcS4IOOQ">
+    <eAnnotations xmi:id="_4RHl4IOhEeilrPhcS4IOOQ" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_4RIM8IOhEeilrPhcS4IOOQ" type="IE_CrowFoot" name="Package1_Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <children xmi:id="_4RVBQIOhEeilrPhcS4IOOQ" element="_tyUMEIOeEeilrPhcS4IOOQ">
+          <children xsi:type="notation:Shape" xmi:id="_4RVoUYOhEeilrPhcS4IOOQ" type="TableName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4RVoUoOhEeilrPhcS4IOOQ"/>
+          </children>
+          <children xmi:id="_4RVoU4OhEeilrPhcS4IOOQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_4RW2coOhEeilrPhcS4IOOQ" type="Key" element="_tyUME4OeEeilrPhcS4IOOQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4RW2c4OhEeilrPhcS4IOOQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_4RW2dIOhEeilrPhcS4IOOQ" type="Key" element="_tyUMFYOeEeilrPhcS4IOOQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4RW2dYOhEeilrPhcS4IOOQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_4RVoVIOhEeilrPhcS4IOOQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_4RVoVYOhEeilrPhcS4IOOQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_4RWPZIOhEeilrPhcS4IOOQ" type="Column" element="_tyUMF4OeEeilrPhcS4IOOQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4RWPZYOhEeilrPhcS4IOOQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_4RWPZoOhEeilrPhcS4IOOQ" type="Column" element="_tyUMGYOeEeilrPhcS4IOOQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4RWPZ4OhEeilrPhcS4IOOQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_4RVoVoOhEeilrPhcS4IOOQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_4RWPYIOhEeilrPhcS4IOOQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_4RWPYYOhEeilrPhcS4IOOQ"/>
+          </children>
+          <children xmi:id="_4RWPYoOhEeilrPhcS4IOOQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_4RWPY4OhEeilrPhcS4IOOQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_4RVBQYOhEeilrPhcS4IOOQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_4RVoUIOhEeilrPhcS4IOOQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4RVBQoOhEeilrPhcS4IOOQ" x="4418" y="5767"/>
+        </children>
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_4RIM8YOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_4RIM8oOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_4RIM84OhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_4RIM9IOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_4RIM9YOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_4RIM9oOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_4RIM94OhEeilrPhcS4IOOQ" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_4RIM-IOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_4RIM-YOhEeilrPhcS4IOOQ"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_4RIM-oOhEeilrPhcS4IOOQ" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.8.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </NetezzaModel:NetezzaSchema>
+  <NetezzaModel:NetezzaTable xmi:id="_tyUMEIOeEeilrPhcS4IOOQ" name="ENTITY1" schema="_twEwYIOeEeilrPhcS4IOOQ">
+    <columns xsi:type="NetezzaModel:NetezzaColumn" xmi:id="_tyUME4OeEeilrPhcS4IOOQ" name="ATTRIBUTE2" nullable="false" defaultValue="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_tyUMFIOeEeilrPhcS4IOOQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="NetezzaModel:NetezzaColumn" xmi:id="_tyUMFYOeEeilrPhcS4IOOQ" name="ATTRIBUTE3" nullable="false" defaultValue="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_tyUMFoOeEeilrPhcS4IOOQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="NetezzaModel:NetezzaColumn" xmi:id="_tyUMF4OeEeilrPhcS4IOOQ" name="ATTRIBUTE4" nullable="false" defaultValue="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_tyUMGIOeEeilrPhcS4IOOQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="NetezzaModel:NetezzaColumn" xmi:id="_tyUMGYOeEeilrPhcS4IOOQ" name="ATTRIBUTE5" defaultValue="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_tyUMGoOeEeilrPhcS4IOOQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="NetezzaModel:NetezzaColumn" xmi:id="_azP94IncEeiREY94qAHJxg" name="ATTRIBUTE1" nullable="false" defaultValue="10">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_azP94YncEeiREY94qAHJxg" name="CHAR" length="5"/>
+    </columns>
+    <constraints xsi:type="NetezzaModel:NetezzaPrimaryKey" xmi:id="_tyUMG4OeEeilrPhcS4IOOQ" name="ENTITY1_PK" members="_tyUME4OeEeilrPhcS4IOOQ _tyUMFYOeEeilrPhcS4IOOQ _azP94IncEeiREY94qAHJxg"/>
+    <distributionKey xmi:id="_tyUMHIOeEeilrPhcS4IOOQ" distributeOn="RANDOM"/>
+  </NetezzaModel:NetezzaTable>
+</xmi:XMI>
